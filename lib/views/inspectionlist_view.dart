@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'inspectionform_view.dart';
 import '../models/inspection_model.dart';
 import '../services/inspection_service.dart';
-import 'package:intl/intl.dart'; // Import intl for date formatting
+import 'package:intl/intl.dart';
 import 'inspectiondetails_view.dart';
 
 class InspectionList extends StatefulWidget {
@@ -46,7 +46,7 @@ class _InspectionListState extends State<InspectionList> {
           final inspection = _inspections[index];
           return ListTile(
             title: Text(DateFormat('d-M-yyyy')
-                .format(inspection.date)), // Format the date
+                .format(inspection.date)),
             subtitle: Text('Inspector: ${inspection.inspector}'),
             trailing: Row(
               mainAxisSize: MainAxisSize.min,

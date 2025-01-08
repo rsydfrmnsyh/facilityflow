@@ -74,10 +74,10 @@ class InspectionDetailsView extends StatelessWidget {
                     SizedBox(width: 8),
                     Expanded(
                       child: Container(
-                        padding: const EdgeInsets.all(8.0), // Add padding inside the box
+                        padding: const EdgeInsets.all(8.0),
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.blueAccent, width: 1), // Border around the box
-                          borderRadius: BorderRadius.circular(8), // Rounded corners
+                          border: Border.all(color: Colors.blueAccent, width: 1),
+                          borderRadius: BorderRadius.circular(8),
                         ),
                         child: Text(
                           '${inspection.details}',

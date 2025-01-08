@@ -68,7 +68,7 @@ class _DashboardViewState extends State<DashboardView> {
                 accountEmail: Text(
                   widget.user.email ?? '',
                   style: TextStyle(
-                    fontSize: 14, // Increased font size
+                    fontSize: 14,
                   ),
                 ),
                 currentAccountPicture: CircleAvatar(
@@ -78,7 +78,7 @@ class _DashboardViewState extends State<DashboardView> {
                   child: widget.user.photoURL == null ? Icon(Icons.person) : null,
                 ),
                 decoration: BoxDecoration(
-                  color: Color.fromRGBO(13, 102, 129, 1), // Header background color
+                  color: Color.fromRGBO(13, 102, 129, 1),
                   borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(20),
                     bottomRight: Radius.circular(20),
@@ -89,8 +89,8 @@ class _DashboardViewState extends State<DashboardView> {
                 title: Text(
                   'Home',
                   style: TextStyle(
-                    fontSize: 18, // Increased font size
-                    fontWeight: FontWeight.bold, // Make the text bold
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 leading: Icon(Icons.home),
@@ -105,8 +105,8 @@ class _DashboardViewState extends State<DashboardView> {
                 title: Text(
                   'Inspections',
                   style: TextStyle(
-                    fontSize: 18, // Increased font size
-                    fontWeight: FontWeight.bold, // Make the text bold
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 leading: Icon(Icons.report),
