@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1020525855072",
+    "project_id": "facilityapp-446601",
+    "storage_bucket": "facilityapp-446601.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020525855072:android:1b33e3ed7b622e38795e05",
+        "android_client_info": {
+          "package_name": "com.example.facilityflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020525855072-e7ftvb935oj753qc6g5p27mbr64qv9tf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.facilityflow",
+            "certificate_hash": "f2026677c2271cff2f52ec322d60af8463e612d4"
+          }
+        },
+        {
+          "client_id": "1020525855072-s881rqmolcbgmplqje6cn75uktbmtpdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFSh4jEN59YNuQRMslglzJwwZlmvsaw-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020525855072-lc2tfn6i3iturcfemkdonirhr48kbms5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
