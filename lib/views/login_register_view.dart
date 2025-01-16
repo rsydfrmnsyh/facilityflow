@@ -76,6 +76,11 @@ class _LoginViewState extends State<LoginView> {
           ),
         ),
         centerTitle: true,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(16), // Adjust the radius as needed
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -243,6 +248,11 @@ class _RegisterViewState extends State<RegisterView> {
           ),
         ),
         centerTitle: true,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(16), // Adjust the radius as needed
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

@@ -39,6 +39,11 @@ class _InspectionListState extends State<InspectionList> {
             onPressed: _fetchInspections,
           )
         ],
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(16), // Adjust the radius as needed
+          ),
+        ),
       ),
       body: ListView.builder(
         itemCount: _inspections.length,
